@@ -22,7 +22,9 @@ export function RandomMovie() {
       <button onClick={generateRandomMovie}>Click!</button>
       {selectedMovie && (
         <div className="mapdiv">
-          <h2>{selectedMovie.Name}</h2>
+          <h2>
+            {selectedMovie.Name} - {selectedMovie.Year}
+          </h2>
           <img src={selectedMovie.image} alt="" srcset="" />
         </div>
       )}
