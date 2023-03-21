@@ -1,7 +1,9 @@
+import { RandomMovie } from "./components/RandomMovie";
+
 export function App() {
   return (
     <div>
-      <h1>hello</h1>
+      <RandomMovie />
     </div>
   );
 }
