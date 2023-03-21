@@ -5,7 +5,7 @@ export function RandomMovie() {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   function generateRandomMovie() {
-    fetch("../movies.json").then((response) =>
+    fetch("https://api.npoint.io/ce25fe16ffb0b98d9a8b").then((response) =>
       response
         .json()
         .then((data) => {
