@@ -1,3 +1,3 @@
 # watchListRandom
 
-random movie from my letterboxd acc watchlist 
+random movie from my letterboxd watchlist 
